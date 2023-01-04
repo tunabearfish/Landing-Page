@@ -1,0 +1,229 @@
+
+html{
+    background-color: whitesmoke;
+    scroll-behavior:smooth;
+}
+
+/* Navigation */
+.navBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;   
+}
+.header-logo{
+    height: 100px;
+    margin-left: 24px;
+    border: 4px solid #FFE8D6;
+    border-radius: 50%;
+    box-shadow: 1px 1px;
+    transition: all 2.0s;
+}
+
+.header-logo:hover{
+    border: 4px solid #ddbea9;
+    transform: rotate(360deg);
+    transition: all 2.0s;
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+li{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 16px;
+}
+
+li:hover{
+    background-color: rgb(255,232,214);
+    cursor: pointer;
+    color:white;
+    text-shadow: 2px 2px 1px black;
+}
+
+/* Title Section*/
+
+.titleSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black 1px;
+    background-image: linear-gradient(60 deg, rgba(57,60,90,0.85),rgba(180,180,120,0.5));
+    /*add background image here */
+    background-position: center;
+    background-size: cover;
+}
+.mediaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000%;
+    margin: 128px 72px 72px;
+    gap: 24px;
+    padding: 32px;
+    border: 3px rgb(221,190,169);
+    border-radius: 200px;
+    box-shadow: 2px 2px ;
+    background:rgba(183,183,164);
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 32px;
+}
+.textBox h1{
+    color:rgb(255,232,214);
+    text-shadow: 2px 2px black;
+}
+.mainImg{
+    object-fit: cover;
+    flex: 1 1 auto;
+    max-width: 300px;
+    border: 8px solid rgb(255, 232, 214);
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    background-color: white;
+}
+
+.ClickMe{
+    font-weight: 900px;
+    padding: 4px 24px;
+    border-radius: 4px;
+    background-color: rgb(203,153,126);
+    align-self: center;
+}
+/* Fix Button */
+
+.ClickMe:hover{
+    cursor: pointer;
+    background-color: rgb(221,190,169);
+    box-shadow: 1px 1px rgb(221,190,169);
+}
+
+/* Team info*/
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.worker-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0px 24px 96px 24px;
+}
+
+.worker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 8px;
+    padding: 24px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+
+}
+.worker-icon{
+    width: 200px;
+    height: 200px;
+    border: 12px solid rgb(230,250,250);
+    border-radius: 32px;
+    box-shadow: 2px 2px 3px black;
+    object-fit: cover;
+
+}
+.worker-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Portfolio*/
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+}
+
+
+
+.portfolioContainer{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0px 24px 96px 24px;
+}
+.portfolio-tile{
+    color:#6B705C;
+    text-shadow: 1px  black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding: 24px;
+    width: 300px;
+}
+
+.portfolio-icon{
+    width: 200px;
+    height: 200px;
+    background-color: #ddbea9;
+    border: 12px rgb(183,183,164);
+    border-radius: 32px;
+    box-shadow: 2px 2px 3px black;
+    object-fit: cover;
+}
+
+.portfolio-icon:hover{
+    border:12px rgb(255,232,214);
+    border-radius: 32px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.portfolio-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
