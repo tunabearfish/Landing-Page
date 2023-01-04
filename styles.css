@@ -1,6 +1,6 @@
 
 html{
-    background-color: whitesmoke;
+    background-color: #F0EFEB;
     scroll-behavior:smooth;
 }
 
@@ -10,6 +10,7 @@ html{
     align-items: center;
     width: 100%;
     position: fixed;   
+    background:whitesmoke;
 }
 .header-logo{
     height: 100px;
@@ -70,7 +71,7 @@ li:hover{
     padding: 32px;
     border: 3px rgb(221,190,169);
     border-radius: 200px;
-    box-shadow: 2px 2px ;
+    box-shadow: 2px 2px 20px 2px;
     background:rgba(183,183,164);
 }
 .textBox{
@@ -89,7 +90,7 @@ li:hover{
     object-fit: cover;
     flex: 1 1 auto;
     max-width: 300px;
-    border: 8px solid rgb(255, 232, 214);
+    border: 15px solid rgb(255, 232, 214);
     border-radius: 50%;
     box-shadow: 2px 2px 3px;
     background-color: white;
@@ -123,6 +124,7 @@ h1{
     justify-content: center;
     flex-flow: row wrap;
     padding: 0px 24px 96px 24px;
+    border-bottom: solid black 1px;
 }
 
 .worker{
@@ -139,7 +141,7 @@ h1{
 .worker-icon{
     width: 200px;
     height: 200px;
-    border: 12px solid rgb(230,250,250);
+    border: 12px solid #DDBEA9;
     border-radius: 32px;
     box-shadow: 2px 2px 3px black;
     object-fit: cover;
@@ -161,7 +163,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: solid black 1px;
+    
 }
 
 
@@ -209,6 +211,43 @@ h2{
     font-weight: bold;
 }
 
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 200px 50px;
+    background-color: #ddbea1;
+    border-bottom: solid black 1px;
+    font-size: 24px;
+    line-height: 150%;
+    font-style: italic;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+.contact-info-container{
+    margin-bottom: 36px;
+}
+
+.contact-info-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    font-size: 20px;
+
+}
+.contact-icon{
+    height: 30px;
+    width: 30px;
+}
 
 
 
