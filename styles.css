@@ -175,7 +175,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:white;
+    color: white;
     text-shadow: 1px 1px black;
     font-weight: bold;
     font-size: 30px;
@@ -206,7 +206,7 @@ h2{
     width: 200px;
     height: 200px;
     background-color: white;
-    border: 12px rgb(183,183,164);
+    border: 12px solid #7EC384;
     border-radius: 32px;
     box-shadow: 2px 2px 3px black;
     object-fit: cover;
