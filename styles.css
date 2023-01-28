@@ -10,6 +10,10 @@ P{
 
 }
 
+a{
+    color: black;
+}
+
 /* Navigation */
 .navBar{
     display: flex;
