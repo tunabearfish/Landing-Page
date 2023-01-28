@@ -11,7 +11,8 @@ P{
 }
 
 a{
-    color: black;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 /* Navigation */
@@ -45,6 +46,7 @@ a{
     margin-right: 12px;
 }
 
+
 li{
     text-decoration: none;
     display: block;
@@ -59,7 +61,6 @@ li:hover{
    
     cursor: pointer;
     
-    text-shadow: 2px 2px 1px white;
 }
 
 /* Title Section*/
